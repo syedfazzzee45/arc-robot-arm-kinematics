@@ -41,3 +41,28 @@ To control a robotic arm, the system needs to understand how joint angles affect
 Initial repository created.
 
 Next step: add a basic 2-link robotic arm forward kinematics simulation.
+
+
+## How to Run
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the forward kinematics simulation:
+
+PYTHONPATH=. python3 examples/run_forward_kinematics.py
+
+## Demo Output
+
+2-Link Robot Arm Forward Kinematics
+
+This simulation calculates the base, joint, and end-effector positions of a 2-link robotic arm using forward kinematics.
+
+## Current Features
+
+* 2-link robotic arm model
+* Forward kinematics calculation
+* Joint angle input
+* End-effector position calculation
+* Robot arm visualization using Matplotlib
